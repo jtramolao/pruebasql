@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  resources :workers
   #get 'welcome/index'
+
+
 
   root 'welcome#index'
 
